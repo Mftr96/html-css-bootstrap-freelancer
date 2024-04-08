@@ -4,20 +4,21 @@
     box-sizing: border-box;
 }
 
+header,.jumbotron,.about,
+footer,.copyright{
+    color: white;
+}
+
 .row{
-    border: 1px solid crimson;
+    /* border: 1px solid crimson; */
 }
 
 /* HEADER STYLE------------------------------------ */
 
 header{
     background-color: rgb(44, 62, 80);
-    color: whitesmoke;  
 }
 
-.container.text-center{
-    border: 1px solid pink;
-}
 
 /* ------------------------------------------------- */
 
@@ -25,7 +26,6 @@ header{
 
 .jumbotron{
     background-color: rgb(26, 188, 156);
-    color: white;
 }
 
 
@@ -35,7 +35,6 @@ header{
 
 .about{
     background-color: rgb(26, 188, 156) ;
-    color: white;
 }
 
 /* ------------------------------------------------------- */
@@ -44,5 +43,12 @@ header{
 
 footer{
     background-color: rgb(58, 84, 109);
-    color: white;
+}
+
+/* ------------------------------------------------------------ */
+
+/* COPYRIGHT STYLE ------------------------------------------- */
+
+.copyright{
+    background-color: rgb(44, 62, 80);
 }
