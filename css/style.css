@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row{
+    border: 1px solid crimson;
+}
+
+.container{
+}
+
+
+
+
+/* HEADER STYLE------------------------------------ */
+
+header{
+    background-color: rgb(44, 62, 80);
+    color: whitesmoke;  
+}
+
+/* ------------------------------------------------- */
+
+/* JUMBOTRON STYLE ---------------------------------- */
+
+.jumbotron{
+    background-color: rgb(26, 188, 156);
+    color: white;
+}
+
+
+/* ----------------------------------------------------- */
+
+/* ABOUT ME STYLE ----------------------------------------- */
+
+.about{
+    background-color: rgb(26, 188, 156) ;
+    color: white;
+}
+
+/* ------------------------------------------------------- */
+
