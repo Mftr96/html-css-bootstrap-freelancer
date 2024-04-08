@@ -8,17 +8,15 @@
     border: 1px solid crimson;
 }
 
-.container{
-}
-
-
-
-
 /* HEADER STYLE------------------------------------ */
 
 header{
     background-color: rgb(44, 62, 80);
     color: whitesmoke;  
+}
+
+.container.text-center{
+    border: 1px solid pink;
 }
 
 /* ------------------------------------------------- */
@@ -42,3 +40,9 @@ header{
 
 /* ------------------------------------------------------- */
 
+/* FOOTER STYLE -------------------------------------------- */
+
+footer{
+    background-color: rgb(58, 84, 109);
+    color: white;
+}
