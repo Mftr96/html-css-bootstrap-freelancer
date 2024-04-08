@@ -9,10 +9,6 @@ footer,.copyright{
     color: white;
 }
 
-.row{
-    /* border: 1px solid crimson; */
-}
-
 /* HEADER STYLE------------------------------------ */
 
 header{
@@ -31,13 +27,30 @@ header{
 
 /* ----------------------------------------------------- */
 
+/* PORTFOLIO STYLE */
+
+.card{
+    border: 1px solid crimson;
+}
+
 /* ABOUT ME STYLE ----------------------------------------- */
 
 .about{
     background-color: rgb(26, 188, 156) ;
 }
 
+.about button{
+    border: 1px solid blue;
+}
+
 /* ------------------------------------------------------- */
+
+/* CONTACT ME STYLE --------------------------------------- */
+
+.contact-me button{
+    background-color: rgb(26, 188, 156);
+}
+
 
 /* FOOTER STYLE -------------------------------------------- */
 
