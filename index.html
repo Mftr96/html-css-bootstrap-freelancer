@@ -17,9 +17,9 @@
                     <p>START BOOTSTRAP</p>
                 </div>
                 <div class="col-4 d-flex justify-content-between">
-                    <p>PORTFOLIO</p>
-                    <p>ABOUT</p>
-                    <p>CONTACT</p>
+                    <a class="text-light text-decoration-none" href="#portfolio">PORTFOLIO</a >
+                    <a class="text-light text-decoration-none" href="#about">ABOUT</a >
+                    <a class="text-light text-decoration-none" href="#contact-me">CONTACT</a >
                 </div>
             </div>
         </div>
@@ -27,7 +27,7 @@
 
     <section class="jumbotron">
         <div class="container text-center">
-            <img src="" alt="img">
+            <img class="w-25" src="./img/avatar.svg" alt="avatar">
             <h1>START BOOTSTRAP</h1>
             <div class="d-flex justify-content-between">
                 <!-- CAPIRE COME IMPOSTARE LINEA CON STELLA -->
@@ -43,40 +43,34 @@
         </div>
     </section>
 
-    <section class="portfolio text-center">
+    <section class=" text-center" id="portfolio">
         <div class="container">
             <h2>PORTFOLIO</h2>
             <hr>
-            <div class="row  ">
-                <div class="col-xl-4 col-md-6 col-s-12 card ">
-                    <img src="" alt="img">
-                    1
+            <div class="row g-4 my-5">
+                <div class="col-lg-4 col-md-6 col-s-12 ">
+                    <img class="img-fluid" src="./img/cabin.png" alt="cabin">
                 </div>
-                <div class="col-xl-4 col-md-6 col-s-12 card ">
-                    <img src="" alt="img">
-                    1
+                <div class="col-lg-4 col-md-6 col-s-12 ">
+                    <img class="img-fluid" src="./img/cake.png" alt="cake">
                 </div>
-                <div class="col-xl-4 col-md-6 col-s-12 card ">
-                    <img src="" alt="img">
-                    1
+                <div class="col-lg-4 col-md-6 col-s-12 ">
+                    <img class="img-fluid" src="./img/circus.png" alt="circus">
                 </div>
-                <div class="col-xl-4 col-md-6 col-s-12 card ">
-                    <img src="" alt="img">
-                    1
+                <div class="col-lg-4 col-md-6 col-s-12 ">
+                    <img class="img-fluid" src="./img/game.png" alt="game">
                 </div>
-                <div class="col-xl-4 col-md-6 col-s-12 card ">
-                    <img src="" alt="img">
-                    1
+                <div class="col-lg-4 col-md-6 col-s-12 ">
+                    <img class="img-fluid" src="./img/safe.png" alt="safe">
                 </div>
-                <div class="col-xl-4 col-md-6 col-s-12 card ">
-                    <img src="" alt="img">
-                    1
+                <div class="col-lg-4 col-md-6 col-s-12 ">
+                    <img class="img-fluid" src="./img/submarine.png" alt="submarine">
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="about p-4">
+    <section class=" p-4" id="about">
         <div class="container d-flex flex-column">
             <h2>ABOUT</h2>
             <hr>
@@ -105,40 +99,50 @@
         </div>
     </section>
 
-    <section class="contact-me text-center">
+    <section class="text-center" id="contact-me">
         <div class="container">
             <h2>CONTACT ME</h2>
             <hr>
-            <div class="row gy-4">
-                <input type="name" placeholder="Name">
-                
-                <input type="mail" placeholder="Email Address">
-                
-                <input type="phone" placeholder="Phone Number">
-                
-                <input type="message" placeholder="Message">
+            <form action="">
+                <div class="row gy-4">
+                    <input type="text" placeholder="Name">
+                    
+                    <input type="mail" placeholder="Email Address">
+                    
+                    <input type="phone" placeholder="Phone Number">
+                    
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="message"></textarea>                <hr>
+                </div>
                 <hr>
+                <div class="col-12 text-start">
+                    <button type="submit"class="btn text-light">Send</button>
+                </div>
             </div>
-            <hr>
-            <button class="btn  text-light">Send</button>
-        </div>
+            </form>
     </section>
 
     <footer>
-        <div class="container">
+        <div class="container text-center ">
             <div class="row justify-content-between">
-                <div class="col-4 col-s-12">
+                <div class="col-lg-4 col-s-12">
                     <h3>LOCATION</h3>
                     <p>
                         2215 John Clark. MO
                     </p>
                 </div>
-                <div class="col-4 col-s-12">
+                <div class="col-lg-4 col-s-12">
                     <h3>AROUND THE WEB</h3>
+                    <div class="col-12">
+                        <i class=" border border-light rounded-circle p-2 fa-brands fa-facebook-f"></i>
+                        <i class=" border border-light rounded-circle p-2 fa-brands fa-google-plus-g"></i>
+                        <i class=" border border-light rounded-circle p-2 fa-brands fa-twitter"></i>
+                        <i class=" border border-light rounded-circle p-2 fa-brands fa-linkedin-in"></i>
+
+                    </div>
 
 
                 </div>
-                <div class="col-4 col-s-12">
+                <div class="col-lg-4 col-s-12">
                     <H3>ABOUT FREELANCER</H3>
                     <p>Freelance is a free to use, open source
                         Bootstrap theme created by

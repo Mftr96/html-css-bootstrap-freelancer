@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-header,.jumbotron,.about,
+header,.jumbotron,#about,
 footer,.copyright{
     color: white;
 }
@@ -35,11 +35,11 @@ header{
 
 /* ABOUT ME STYLE ----------------------------------------- */
 
-.about{
+#about{
     background-color: rgb(26, 188, 156) ;
 }
 
-.about button{
+#about button{
     border: 1px solid blue;
 }
 
@@ -47,7 +47,7 @@ header{
 
 /* CONTACT ME STYLE --------------------------------------- */
 
-.contact-me button{
+#contact-me button{
     background-color: rgb(26, 188, 156);
 }
 
